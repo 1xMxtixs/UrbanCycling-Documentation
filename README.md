@@ -3,20 +3,7 @@
 🛡️ **Repositorio Central de Ingeniería y Ciclo de Vida del Proyecto**  
 *Single Source of Truth (SSoT) para el ecosistema de movilidad urbana sostenible.*
 
----
-
-[![Documentation Status](https://img.shields.io/badge/Documentaci%C3%B3n-Excelente-brightgreen.svg?style=for-the-badge&logo=read-the-docs)](https://github.com/UrbanCycling/UrbanCycling-Documentation)
-[![Software Engineering](https://img.shields.io/badge/Ingenier%C3%ADa_de-Software-blue.svg?style=for-the-badge&logo=github)](https://github.com/UrbanCycling/UrbanCycling-Documentation)
-[![Academic Status](https://img.shields.io/badge/Semestre-7_ISW_I-orange.svg?style=for-the-badge)](https://github.com/UrbanCycling/UrbanCycling-Documentation)
-
----
-
 ## 📌 Introducción y Propósito Del Ecosistema
-
-El proyecto **"Ciclismo Urbano" (Urban Cycling)** es un ecosistema tecnológico integral diseñado para transformar la movilidad activa en las ciudades. Su principal objetivo es optimizar y promover el uso de la bicicleta y vehículos de micro-movilidad mediante el análisis de datos geoespaciales, la planificación inteligente de infraestructura cicloviaria y la gamificación para ciclistas urbanos. El sistema consta de:
-*   Una **aplicación móvil** para el registro de rutas, telemetría del ciclista y reportes de seguridad en tiempo real.
-*   Una **plataforma web administrativa** orientada a planificadores urbanos y gobiernos locales para el análisis predictivo de flujos viales y desgaste de infraestructura.
-*   Una **arquitectura orientada a servicios (SOA / Microservicios)** que procesa flujos continuos de datos geográficos (GIS).
 
 ### Propósito de este Repositorio
 Este repositorio puramente documental centraliza la **Ingeniería del Ciclo de Vida del Software** de Urban Cycling. Actúa como el núcleo de conocimiento técnico que alinea los esfuerzos del equipo de datos, desarrollo, control de calidad y gestión académica. Aquí se consolidan desde los modelos relacionales de datos hasta las estrategias de despliegue en la nube, garantizando que el diseño del sistema sea rastreable, reproducible y mantenible.
@@ -176,17 +163,6 @@ Este módulo actúa como el hilo conductor metodológico y académico, proporcio
 
 ---
 
-## 🛠️ Stack de Herramientas de Documentación
-
-Con el fin de garantizar la uniformidad, legibilidad y el mantenimiento evolutivo de todos los diagramas y especificaciones técnicas, se definieron los siguientes estándares tecnológicos:
-
-*   **Modelado Arquitectónico y Comportamiento**: [Mermaid.js](https://mermaid.js.org/) (diagramas *as-code* integrados directamente en Markdown), [Lucidchart](https://www.lucidchart.com/) para diagramas UML complejos interactivos.
-*   **Gestión de Base de Datos**: [PostgreSQL](https://www.postgresql.org/) y [pgAdmin](https://www.pgadmin.org/) (o Microsoft SQL Server Management Studio) para la compilación, indexación y validación de los scripts DDL/DML.
-*   **Formatos Documentales**: [Markdown (MD)](https://daringfireball.net/projects/markdown/) para especificaciones de código ligero, y plantillas formales de ingeniería convertidas a **PDF** de alta fidelidad para reportes académicos.
-*   **Versionamiento y Colaboración**: [Git](https://git-scm.com/) y [GitHub](https://github.com/) como plataforma de control de versiones y gobernanza documental distribuida.
-
----
-
 ## 🤝 Estándares de Contribución y Buenas Prácticas
 
 Todos los integrantes de los subequipos tienen la responsabilidad de proteger la calidad del repositorio de documentación. Siga estas directrices estrictas al realizar aportes:
@@ -223,4 +199,4 @@ Su uso está estrictamente regulado para fines académicos. Queda prohibida la r
 
 ---
 
-> 🚴 **Urban Cycling: Moviendo las ciudades hacia el futuro, línea de código a línea de código.**
+> 🚴 **Urban Cycling: Moviendo negocios legacy hacia el futuro, línea de código a línea de código.**
